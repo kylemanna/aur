@@ -1,2 +1,3 @@
-# aur-linux-can-dkms
-Arch Linux User Repository for Linux CAN Modules
+# Arch Linux User Repository
+
+Home for my custom AUR packages.
