@@ -4,3 +4,6 @@
 [submodule "storj-dataserv-client"]
 	path = storj-dataserv-client
 	url = https://aur.archlinux.org/storj-dataserv-client.git
+[submodule "python-randomio"]
+	path = python-randomio
+	url = https://aur.archlinux.org/python-randomio.git
