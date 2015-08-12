@@ -1,3 +1,6 @@
 [submodule "linux-can-dkms"]
 	path = linux-can-dkms
 	url = https://aur.archlinux.org/linux-can-dkms.git
+[submodule "storj-dataserv-client"]
+	path = storj-dataserv-client
+	url = https://aur.archlinux.org/storj-dataserv-client.git
