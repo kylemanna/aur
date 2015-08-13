@@ -7,3 +7,6 @@
 [submodule "python-randomio"]
 	path = python-randomio
 	url = https://aur.archlinux.org/python-randomio.git
+[submodule "gcc-arm-none-eabi-bin"]
+	path = gcc-arm-none-eabi-bin
+	url = https://aur.archlinux.org/gcc-arm-none-eabi-bin.git
