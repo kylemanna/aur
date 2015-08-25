@@ -10,3 +10,6 @@
 [submodule "gcc-arm-none-eabi-bin"]
 	path = gcc-arm-none-eabi-bin
 	url = https://aur.archlinux.org/gcc-arm-none-eabi-bin.git
+[submodule "python-partialhash"]
+	path = python-partialhash
+	url = https://aur.archlinux.org/python-partialhash.git
