@@ -13,3 +13,9 @@
 [submodule "python-partialhash"]
 	path = python-partialhash
 	url = https://aur.archlinux.org/python-partialhash.git
+[submodule "python-btctxstore"]
+	path = python-btctxstore
+	url = https://aur.archlinux.org/python-btctxstore.git
+[submodule "python-storjcore"]
+	path = python-storjcore
+	url = https://aur.archlinux.org/python-storjcore.git
