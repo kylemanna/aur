@@ -19,3 +19,6 @@
 [submodule "python-storjcore"]
 	path = python-storjcore
 	url = https://aur.archlinux.org/python-storjcore.git
+[submodule "keepassx2-yubikey-git"]
+	path = keepassx2-yubikey-git
+	url = https://aur.archlinux.org/keepassx2-yubikey-git.git
