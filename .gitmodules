@@ -25,3 +25,6 @@
 [submodule "copay"]
 	path = copay
 	url = https://aur.archlinux.org/copay.git
+[submodule "backblaze-b2"]
+	path = backblaze-b2
+	url = https://aur.archlinux.org/backblaze-b2.git
