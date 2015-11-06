@@ -43,3 +43,6 @@
 [submodule "valinor"]
 	path = valinor
 	url = https://aur.archlinux.org/valinor
+[submodule "mbed-test-wrapper"]
+	path = mbed-test-wrapper
+	url = https://aur.archlinux.org/mbed-test-wrapper
