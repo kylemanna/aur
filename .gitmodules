@@ -40,3 +40,6 @@
 [submodule "pyocd"]
 	path = pyocd
 	url = https://aur.archlinux.org/pyocd
+[submodule "valinor"]
+	path = valinor
+	url = https://aur.archlinux.org/valinor
