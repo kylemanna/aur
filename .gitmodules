@@ -37,3 +37,6 @@
 [submodule "project-generator"]
 	path = project-generator
 	url = https://aur.archlinux.org/project-generator
+[submodule "pyocd"]
+	path = pyocd
+	url = https://aur.archlinux.org/pyocd
