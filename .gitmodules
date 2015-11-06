@@ -28,3 +28,6 @@
 [submodule "backblaze-b2"]
 	path = backblaze-b2
 	url = https://aur.archlinux.org/backblaze-b2.git
+[submodule "python-intelhex"]
+	path = python-intelhex
+	url = https://aur.archlinux.org/python-intelhex.git
