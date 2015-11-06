@@ -31,3 +31,9 @@
 [submodule "python-intelhex"]
 	path = python-intelhex
 	url = https://aur.archlinux.org/python-intelhex.git
+[submodule "project-generator-definitions"]
+	path = project-generator-definitions
+	url = https://aur.archlinux.org/project-generator-definitions
+[submodule "project-generator"]
+	path = project-generator
+	url = https://aur.archlinux.org/project-generator
