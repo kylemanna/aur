@@ -46,3 +46,6 @@
 [submodule "mbed-test-wrapper"]
 	path = mbed-test-wrapper
 	url = https://aur.archlinux.org/mbed-test-wrapper
+[submodule "yotta"]
+	path = yotta
+	url = https://aur.archlinux.org/yotta
