@@ -49,3 +49,6 @@
 [submodule "yotta"]
 	path = yotta
 	url = https://aur.archlinux.org/yotta
+[submodule "python-mbed-tools"]
+	path = python-mbed-tools
+	url = https://aur.archlinux.org/python-mbed-tools
