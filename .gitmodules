@@ -55,3 +55,6 @@
 [submodule "kicost"]
 	path = kicost
 	url = https://aur.archlinux.org/kicost.git
+[submodule "python-affine"]
+	path = python-affine
+	url = https://aur.archlinux.org/python-affine.git
