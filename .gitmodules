@@ -58,3 +58,6 @@
 [submodule "python-affine"]
 	path = python-affine
 	url = https://aur.archlinux.org/python-affine.git
+[submodule "kipart"]
+	path = kipart
+	url = https://aur.archlinux.org/kipart.git
