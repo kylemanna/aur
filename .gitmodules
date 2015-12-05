@@ -52,3 +52,6 @@
 [submodule "python-mbed-tools"]
 	path = python-mbed-tools
 	url = https://aur.archlinux.org/python-mbed-tools
+[submodule "kicost"]
+	path = kicost
+	url = https://aur.archlinux.org/kicost.git
