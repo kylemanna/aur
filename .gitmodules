@@ -79,3 +79,6 @@
 [submodule "python-rpcudp"]
 	path = python-rpcudp
 	url = https://aur.archlinux.org/python-rpcudp
+[submodule "python-ntplib"]
+	path = python-ntplib
+	url = https://aur.archlinux.org/python-ntplib
