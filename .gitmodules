@@ -64,3 +64,6 @@
 [submodule "python-storjnode"]
 	path = python-storjnode
 	url = https://aur.archlinux.org/python-storjnode
+[submodule "python-crochet"]
+	path = python-crochet
+	url = https://aur.archlinux.org/python-crochet
