@@ -61,3 +61,6 @@
 [submodule "kipart"]
 	path = kipart
 	url = https://aur.archlinux.org/kipart.git
+[submodule "python-storjnode"]
+	path = python-storjnode
+	url = https://aur.archlinux.org/python-storjnode
