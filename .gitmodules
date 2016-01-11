@@ -76,3 +76,6 @@
 [submodule "python-umsgpack"]
 	path = python-umsgpack
 	url = https://aur.archlinux.org/python-umsgpack
+[submodule "python-rpcudp"]
+	path = python-rpcudp
+	url = https://aur.archlinux.org/python-rpcudp
