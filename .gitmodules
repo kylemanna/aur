@@ -67,3 +67,6 @@
 [submodule "python-crochet"]
 	path = python-crochet
 	url = https://aur.archlinux.org/python-crochet
+[submodule "python-pyp2p"]
+	path = python-pyp2p
+	url = https://aur.archlinux.org/python-pyp2p
