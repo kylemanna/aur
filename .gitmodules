@@ -73,3 +73,6 @@
 [submodule "python-kademlia"]
 	path = python-kademlia
 	url = https://aur.archlinux.org/python-kademlia
+[submodule "python-umsgpack"]
+	path = python-umsgpack
+	url = https://aur.archlinux.org/python-umsgpack
