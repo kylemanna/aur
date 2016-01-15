@@ -82,3 +82,6 @@
 [submodule "python-ntplib"]
 	path = python-ntplib
 	url = https://aur.archlinux.org/python-ntplib
+[submodule "backblaze-b2sync"]
+	path = backblaze-b2sync
+	url = https://aur.archlinux.org/backblaze-b2sync
