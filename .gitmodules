@@ -85,3 +85,6 @@
 [submodule "backblaze-b2sync"]
 	path = backblaze-b2sync
 	url = https://aur.archlinux.org/backblaze-b2sync
+[submodule "python-yattag"]
+	path = python-yattag
+	url = https://aur.archlinux.org/python-yattag
