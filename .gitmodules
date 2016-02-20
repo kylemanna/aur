@@ -88,3 +88,6 @@
 [submodule "python-yattag"]
 	path = python-yattag
 	url = https://aur.archlinux.org/python-yattag
+[submodule "somagic-easycap-smi2021-git"]
+	path = somagic-easycap-smi2021-git
+	url = https://aur.archlinux.org/somagic-easycap-smi2021-git.git
