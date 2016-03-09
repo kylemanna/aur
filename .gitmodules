@@ -91,3 +91,6 @@
 [submodule "somagic-easycap-smi2021-git"]
 	path = somagic-easycap-smi2021-git
 	url = https://aur.archlinux.org/somagic-easycap-smi2021-git.git
+[submodule "kinetis-design-studio-bin"]
+	path = kinetis-design-studio-bin
+	url = https://aur.archlinux.org/kinetis-design-studio-bin
