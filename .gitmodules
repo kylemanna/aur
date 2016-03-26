@@ -94,3 +94,6 @@
 [submodule "kinetis-design-studio-bin"]
 	path = kinetis-design-studio-bin
 	url = https://aur.archlinux.org/kinetis-design-studio-bin
+[submodule "expressvpn"]
+	path = expressvpn
+	url = https://aur.archlinux.org/expressvpn.git
