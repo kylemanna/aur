@@ -97,3 +97,6 @@
 [submodule "expressvpn"]
 	path = expressvpn
 	url = https://aur.archlinux.org/expressvpn.git
+[submodule "python-tqdm"]
+	path = python-tqdm
+	url = https://aur.archlinux.org/python-tqdm
