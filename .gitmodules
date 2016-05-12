@@ -100,3 +100,6 @@
 [submodule "python-tqdm"]
 	path = python-tqdm
 	url = https://aur.archlinux.org/python-tqdm
+[submodule "python-can"]
+	path = python-can
+	url = https://aur.archlinux.org/python-can
