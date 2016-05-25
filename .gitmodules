@@ -103,3 +103,6 @@
 [submodule "python-can"]
 	path = python-can
 	url = https://aur.archlinux.org/python-can
+[submodule "mynewt-newt"]
+	path = mynewt-newt
+	url = https://aur.archlinux.org/mynewt-newt
