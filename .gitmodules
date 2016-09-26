@@ -106,3 +106,6 @@
 [submodule "mynewt-newt"]
 	path = mynewt-newt
 	url = https://aur.archlinux.org/mynewt-newt
+[submodule "remote_syslog2"]
+	path = remote_syslog2
+	url = https://aur.archlinux.org/remote_syslog2
