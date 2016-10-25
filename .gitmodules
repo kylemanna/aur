@@ -109,3 +109,6 @@
 [submodule "remote_syslog2"]
 	path = remote_syslog2
 	url = https://aur.archlinux.org/remote_syslog2
+[submodule "digitalocean-synchronize"]
+	path = digitalocean-synchronize
+	url = https://aur.archlinux.org/digitalocean-synchronize.git
