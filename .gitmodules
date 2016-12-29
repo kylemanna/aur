@@ -112,3 +112,6 @@
 [submodule "digitalocean-synchronize"]
 	path = digitalocean-synchronize
 	url = https://aur.archlinux.org/digitalocean-synchronize.git
+[submodule "do-agent"]
+	path = do-agent
+	url = https://aur@aur.archlinux.org/do-agent
