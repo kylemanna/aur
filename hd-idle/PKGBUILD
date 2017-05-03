@@ -4,7 +4,7 @@
 
 pkgname=hd-idle
 pkgver=1.05
-pkgrel=1
+pkgrel=2
 pkgdesc='Utility program for spinning-down external disks after a period of idle time.'
 arch=('i686' 'x86_64')
 backup=(etc/conf.d/hd-idle)
@@ -12,9 +12,17 @@ url="http://hd-idle.sourceforge.net/"
 license=('GPL')
 depends=('glibc')
 source=("http://downloads.sf.net/$pkgname/$pkgname-$pkgver.tgz"
-        "hd-idle.service")
+        "hd-idle.service"
+        "0001-main-Don-t-buffer-stdout.patch"
+        )
 md5sums=('5fa72fe717bc80011a79d6740d2903f3'
-         '6e9162a075a7a99c3d10e9cde9c499df')
+         '6e9162a075a7a99c3d10e9cde9c499df'
+         '918b5f8adc2e3261b3fd2525193445bb')
+
+prepare() {
+    cd "$srcdir/$pkgname"
+    patch -Np1 -i "${srcdir}/0001-main-Don-t-buffer-stdout.patch"
+}
 
 build() {
     cd "$srcdir/$pkgname"

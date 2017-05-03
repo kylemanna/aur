@@ -1,0 +1,26 @@
+From 2722a9df9eca8eedf5d18640dccad7e100795454 Mon Sep 17 00:00:00 2001
+From: Kyle Manna <kyle@kylemanna.com>
+Date: Tue, 2 May 2017 21:24:38 -0700
+Subject: [PATCH] main: Don't buffer stdout
+
+---
+ hd-idle.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/hd-idle.c b/hd-idle.c
+index ec9c7d2..dce9bb7 100644
+--- a/hd-idle.c
++++ b/hd-idle.c
+@@ -177,6 +177,9 @@ int main(int argc, char *argv[])
+   int sleep_time;
+   int opt;
+ 
++  /* Disable buffering so debug output hits journalctl in realtime */
++  setbuf(stdout, NULL);
++
+   /* create default idle-time parameter entry */
+   if ((it = malloc(sizeof(*it))) == NULL) {
+     fprintf(stderr, "out of memory\n");
+-- 
+2.12.2
+
