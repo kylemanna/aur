@@ -1,17 +1,19 @@
 # $Id$
 # Maintainer: Kyle Keen <keenerd@gmail.com>
 # Contributor: Tilman Blumenbach <tilman@ax86.net>
+# stdout patch: Kyle Manna <kyle [at] kylemanna [dot] com>
 
-pkgname=hd-idle
+_pkgname=hd-idle
+pkgname=${_pkgname}-systemd
 pkgver=1.05
-pkgrel=2
+pkgrel=1
 pkgdesc='Utility program for spinning-down external disks after a period of idle time.'
 arch=('i686' 'x86_64')
 backup=(etc/conf.d/hd-idle)
 url="http://hd-idle.sourceforge.net/"
 license=('GPL')
 depends=('glibc')
-source=("http://downloads.sf.net/$pkgname/$pkgname-$pkgver.tgz"
+source=("http://downloads.sf.net/$pkgname/$_pkgname-$pkgver.tgz"
         "hd-idle.service"
         "0001-main-Don-t-buffer-stdout.patch"
         )
@@ -19,23 +21,26 @@ md5sums=('5fa72fe717bc80011a79d6740d2903f3'
          '6e9162a075a7a99c3d10e9cde9c499df'
          '918b5f8adc2e3261b3fd2525193445bb')
 
+provides=("${_pkgname}")
+conflicts=("${_pkgname}")
+
 prepare() {
-    cd "$srcdir/$pkgname"
+    cd "$srcdir/$_pkgname"
     patch -Np1 -i "${srcdir}/0001-main-Don-t-buffer-stdout.patch"
 }
 
 build() {
-    cd "$srcdir/$pkgname"
+    cd "$srcdir/$_pkgname"
     sed -i 's|/sbin|/bin|' Makefile
     make
 }
 
 package() {
-    cd "$srcdir/$pkgname"
+    cd "$srcdir/$_pkgname"
 
     make TARGET_DIR="$pkgdir/usr" install
 
-    install -Dm644 README "$pkgdir/usr/share/doc/$pkgname/README"
+    install -Dm644 README "$pkgdir/usr/share/doc/$_pkgname/README"
     install -Dm644 debian/hd-idle.default "$pkgdir/etc/conf.d/hd-idle"
 
     cd "$srcdir"
