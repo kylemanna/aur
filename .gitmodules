@@ -115,3 +115,6 @@
 [submodule "do-agent"]
 	path = do-agent
 	url = https://aur@aur.archlinux.org/do-agent
+[submodule "sharp-mx-3050to6170-ps"]
+	path = sharp-mx-3050to6170-ps
+	url = https://aur.archlinux.org/sharp-mx-3050to6170-ps.git
