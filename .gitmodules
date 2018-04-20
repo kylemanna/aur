@@ -118,3 +118,6 @@
 [submodule "sharp-mx-3050to6170-ps"]
 	path = sharp-mx-3050to6170-ps
 	url = https://aur.archlinux.org/sharp-mx-3050to6170-ps.git
+[submodule "bmap-tools"]
+	path = bmap-tools
+	url = https://aur.archlinux.org/bmap-tools.git
