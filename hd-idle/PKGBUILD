@@ -16,10 +16,12 @@ depends=('glibc')
 source=("http://downloads.sf.net/$pkgname/$_pkgname-$pkgver.tgz"
         "hd-idle.service"
         "0001-main-Don-t-buffer-stdout.patch"
+        "0002-disable-probe-logging.patch"
         )
 md5sums=('5fa72fe717bc80011a79d6740d2903f3'
          '6e9162a075a7a99c3d10e9cde9c499df'
-         '918b5f8adc2e3261b3fd2525193445bb')
+         'd6c01d448ba7023a79f1ec9824f15361'
+         '0500c480e3a111692cd1ca7730578de1')
 
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
@@ -27,6 +29,7 @@ conflicts=("${_pkgname}")
 prepare() {
     cd "$srcdir/$_pkgname"
     patch -Np1 -i "${srcdir}/0001-main-Don-t-buffer-stdout.patch"
+    patch -Np1 -i "${srcdir}/0002-disable-probe-logging.patch"
 }
 
 build() {

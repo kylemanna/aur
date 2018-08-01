@@ -1,7 +1,7 @@
-From 2722a9df9eca8eedf5d18640dccad7e100795454 Mon Sep 17 00:00:00 2001
+From 4818a6937668a70df30a0609a9815a12a7b9a48c Mon Sep 17 00:00:00 2001
 From: Kyle Manna <kyle@kylemanna.com>
 Date: Tue, 2 May 2017 21:24:38 -0700
-Subject: [PATCH] main: Don't buffer stdout
+Subject: [PATCH 1/2] main: Don't buffer stdout
 
 ---
  hd-idle.c | 3 +++
@@ -22,5 +22,5 @@ index ec9c7d2..dce9bb7 100644
    if ((it = malloc(sizeof(*it))) == NULL) {
      fprintf(stderr, "out of memory\n");
 -- 
-2.12.2
+2.16.2
 
