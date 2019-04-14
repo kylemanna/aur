@@ -121,3 +121,6 @@
 [submodule "bmap-tools"]
 	path = bmap-tools
 	url = https://aur.archlinux.org/bmap-tools.git
+[submodule "python-intervaltree"]
+	path = python-intervaltree
+	url = https://aur.archlinux.org/python-intervaltree.git
