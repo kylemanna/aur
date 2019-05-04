@@ -124,3 +124,6 @@
 [submodule "python-intervaltree"]
 	path = python-intervaltree
 	url = https://aur.archlinux.org/python-intervaltree.git
+[submodule "python-b2sdk"]
+	path = python-b2sdk
+	url = https://aur.archlinux.org/python-b2sdk.git
