@@ -127,3 +127,6 @@
 [submodule "python-b2sdk"]
 	path = python-b2sdk
 	url = https://aur.archlinux.org/python-b2sdk.git
+[submodule "wavedrom-editor"]
+	path = wavedrom-editor
+	url = https://aur.archlinux.org/wavedrom-editor.git
