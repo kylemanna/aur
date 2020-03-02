@@ -130,3 +130,6 @@
 [submodule "wavedrom-editor"]
 	path = wavedrom-editor
 	url = https://aur.archlinux.org/wavedrom-editor.git
+[submodule "python-cmsis-pack-manager"]
+	path = python-cmsis-pack-manager
+	url = https://aur.archlinux.org/python-cmsis-pack-manager.git
