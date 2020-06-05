@@ -133,3 +133,6 @@
 [submodule "python-cmsis-pack-manager"]
 	path = python-cmsis-pack-manager
 	url = https://aur.archlinux.org/python-cmsis-pack-manager.git
+[submodule "dropwatch"]
+	path = dropwatch
+	url = https://aur.archlinux.org/dropwatch.git
