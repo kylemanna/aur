@@ -136,3 +136,9 @@
 [submodule "dropwatch"]
 	path = dropwatch
 	url = https://aur.archlinux.org/dropwatch.git
+[submodule "pylink"]
+	path = pylink
+	url = https://aur.archlinux.org/pylink.git
+[submodule "python-class-registry"]
+	path = python-class-registry
+	url = https://aur.archlinux.org/python-class-registry.git
