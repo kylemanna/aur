@@ -142,3 +142,6 @@
 [submodule "python-class-registry"]
 	path = python-class-registry
 	url = https://aur.archlinux.org/python-class-registry.git
+[submodule "storj-uplink"]
+	path = storj-uplink
+	url = http://aur.archlinux.org/storj-uplink.git
