@@ -145,3 +145,6 @@
 [submodule "storj-uplink"]
 	path = storj-uplink
 	url = http://aur.archlinux.org/storj-uplink.git
+[submodule "helium-ledger-app-bin"]
+	path = helium-ledger-app-bin
+	url = http://aur.archlinux.org/helium-ledger-app-bin.git
