@@ -148,3 +148,6 @@
 [submodule "helium-ledger-app-bin"]
 	path = helium-ledger-app-bin
 	url = http://aur.archlinux.org/helium-ledger-app-bin.git
+[submodule "helium-wallet"]
+	path = helium-wallet
+	url = http://aur.archlinux.org/helium-wallet.git
