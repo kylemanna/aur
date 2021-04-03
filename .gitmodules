@@ -151,3 +151,6 @@
 [submodule "helium-wallet"]
 	path = helium-wallet
 	url = http://aur.archlinux.org/helium-wallet.git
+[submodule "python-rst2ansi"]
+	path = python-rst2ansi
+	url = http://aur.archlinux.org/python-rst2ansi.git
