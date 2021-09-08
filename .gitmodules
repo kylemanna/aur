@@ -154,3 +154,6 @@
 [submodule "python-rst2ansi"]
 	path = python-rst2ansi
 	url = http://aur.archlinux.org/python-rst2ansi.git
+[submodule "helium-ledger-cli"]
+	path = helium-ledger-cli
+	url = http://aur.archlinux.org/helium-ledger-cli.git
