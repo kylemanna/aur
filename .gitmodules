@@ -157,3 +157,6 @@
 [submodule "helium-ledger-cli"]
 	path = helium-ledger-cli
 	url = http://aur.archlinux.org/helium-ledger-cli.git
+[submodule "blktrace"]
+	path = blktrace
+	url = https://aur.archlinux.org/blktrace.git
