@@ -160,3 +160,6 @@
 [submodule "blktrace"]
 	path = blktrace
 	url = https://aur.archlinux.org/blktrace.git
+[submodule "python-logfury"]
+	path = python-logfury
+	url = https://aur.archlinux.org/python-logfury
