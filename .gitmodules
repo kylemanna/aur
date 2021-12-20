@@ -163,3 +163,6 @@
 [submodule "python-logfury"]
 	path = python-logfury
 	url = https://aur.archlinux.org/python-logfury
+[submodule "cncli"]
+	path = cncli
+	url = https://aur.archlinux.org/cncli
