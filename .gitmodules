@@ -166,3 +166,6 @@
 [submodule "cncli"]
 	path = cncli
 	url = https://aur.archlinux.org/cncli
+[submodule "celocli"]
+	path = celocli
+	url = https://aur.archlinux.org/celocli.git
