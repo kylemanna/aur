@@ -169,3 +169,9 @@
 [submodule "celocli"]
 	path = celocli
 	url = https://aur.archlinux.org/celocli.git
+[submodule "celoterminal-bin"]
+	path = celoterminal-bin
+	url = https://aur.archlinux.org/celoterminal-bin.git
+[submodule "celoterminal"]
+	path = celoterminal
+	url = https://aur.archlinux.org/celoterminal.git
