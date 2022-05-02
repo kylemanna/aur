@@ -175,3 +175,6 @@
 [submodule "celoterminal"]
 	path = celoterminal
 	url = https://aur.archlinux.org/celoterminal.git
+[submodule "pipewatch-git"]
+	path = pipewatch-git
+	url = https://aur.archlinux.org/pipewatch-git.git
