@@ -178,3 +178,6 @@
 [submodule "pipewatch-git"]
 	path = pipewatch-git
 	url = https://aur.archlinux.org/pipewatch-git.git
+[submodule "near-cli"]
+	path = near-cli
+	url = https://aur.archlinux.org/near-cli.git
