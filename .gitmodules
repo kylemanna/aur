@@ -181,3 +181,12 @@
 [submodule "near-cli"]
 	path = near-cli
 	url = https://aur.archlinux.org/near-cli.git
+[submodule "trust-dns-util"]
+	path = trust-dns-util
+	url = https://aur.archlinux.org/trust-dns-util.git
+[submodule "lurk"]
+	path = lurk
+	url = https://aur.archlinux.org/lurk.git
+[submodule "logtail-dash"]
+	path = logtail-dash
+	url = https://aur.archlinux.org/logtail-dash.git
