@@ -190,3 +190,9 @@
 [submodule "logtail-dash"]
 	path = logtail-dash
 	url = https://aur.archlinux.org/logtail-dash.git
+[submodule "akashlytics-deploy-bin"]
+	path = akashlytics-deploy-bin
+	url = https://aur.archlinux.org/akashlytics-deploy-bin.git
+[submodule "aurora-cli"]
+	path = aurora-cli
+	url = https://aur@aur.archlinux.org/aurora-cli.git
