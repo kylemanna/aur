@@ -196,3 +196,6 @@
 [submodule "aurora-cli"]
 	path = aurora-cli
 	url = https://aur@aur.archlinux.org/aurora-cli.git
+[submodule "python-ouster-sdk"]
+	path = python-ouster-sdk
+	url = https://aur.archlinux.org/python-ouster-sdk.git/
