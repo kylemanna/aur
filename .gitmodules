@@ -199,3 +199,6 @@
 [submodule "python-ouster-sdk"]
 	path = python-ouster-sdk
 	url = https://aur.archlinux.org/python-ouster-sdk.git/
+[submodule "python-certstream"]
+	path = python-certstream
+	url = https://aur.archlinux.org/python-certstream.git
