@@ -205,3 +205,6 @@
 [submodule "bnx2x-2500m-dkms"]
 	path = bnx2x-2500m-dkms
 	url = https://aur.archlinux.org/bnx2x-2500m-dkms.git/
+[submodule "bms-tools"]
+	path = bms-tools
+	url = https://aur.archlinux.org/bms-tools.git
