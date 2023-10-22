@@ -208,3 +208,9 @@
 [submodule "bms-tools"]
 	path = bms-tools
 	url = https://aur.archlinux.org/bms-tools.git
+[submodule "linuxptp"]
+	path = linuxptp
+	url = https://aur.archlinux.org/linuxptp.git/
+[submodule "libtins"]
+	path = libtins
+	url = https://aur.archlinux.org/libtins.git/
