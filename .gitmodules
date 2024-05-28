@@ -214,3 +214,12 @@
 [submodule "libtins"]
 	path = libtins
 	url = https://aur.archlinux.org/libtins.git/
+[submodule "vpp-bin"]
+	path = vpp-bin
+	url = https://aur.archlinux.org/vpp-bin.git
+[submodule "vpp-lib-bin"]
+	path = vpp-lib-bin
+	url = https://aur.archlinux.org/vpp-lib-bin.git
+[submodule "vpp-plugins-bin"]
+	path = vpp-plugins-bin
+	url = https://aur.archlinux.org/vpp-plugins-bin.git
