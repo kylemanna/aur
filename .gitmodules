@@ -119,7 +119,7 @@
 	path = sharp-mx-3050to6170-ps
 	url = https://aur.archlinux.org/sharp-mx-3050to6170-ps.git
 [submodule "bmap-tools"]
-	path = bmap-tools
+	path = bmaptool
 	url = https://aur.archlinux.org/bmap-tools.git
 [submodule "python-intervaltree"]
 	path = python-intervaltree
