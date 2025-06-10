@@ -223,3 +223,6 @@
 [submodule "vpp-plugins-bin"]
 	path = vpp-plugins-bin
 	url = https://aur.archlinux.org/vpp-plugins-bin.git
+[submodule "sedutil"]
+	path = sedutil
+	url = https://aur.archlinux.org/sedutil.git
